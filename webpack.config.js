@@ -10,7 +10,8 @@ let config = {
     entry: "./index.js",
     output: {
         path: __dirname + "/dest",
-        filename: isProduction ? "guardjs.min.js" : "guardjs.js"
+        filename: isProduction ? "guardjs.min.js" : "guardjs.js",
+        library: "guardjs"
     },
 
     watch: isDevelopment,

@@ -1,8 +1,8 @@
 {
   "name": "@mestl/guardjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Liblary implement guard for javascript. It allows to add any condition and use it in one line in a different way",
-  "main": "dest/guardjs.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
