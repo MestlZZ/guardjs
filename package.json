@@ -1,5 +1,5 @@
 {
-  "name": "guardjs",
+  "name": "@mestl/guardjs",
   "version": "0.0.1",
   "description": "Liblary implement guard for javascript. It allows to add any condition and use it in one line in a different way",
   "main": "dest/guard.min.js",
