@@ -2,7 +2,7 @@
   "name": "guardjs",
   "version": "0.0.1",
   "description": "Liblary implement guard for javascript. It allows to add any condition and use it in one line in a different way",
-  "main": "guard.js",
+  "main": "dest/guard.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,19 @@
     "exception",
     "javascript"
   ],
-  "author": "Bohdan Herasymov",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MestlZZ/guardjs.git"
+  },
+  "author": "Bohdan Herasymov <mestl_zz@ukr.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
 }
